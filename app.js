@@ -69,42 +69,42 @@ document.addEventListener("DOMContentLoaded", function() {
   /* Hyperlinks */
   const twitterBtn = document.getElementById('twitter-button');
   twitterBtn.addEventListener('click', function() {
-    window.open('https://x.com/SolMemeCartel', '_blank');
+    window.open('https://x.com/CartelSol', '_blank');
   });
 
   const telegramBtn = document.getElementById('telegram-button');
   telegramBtn.addEventListener('click', function() {
-    window.open('https://t.me/TheSolanaCartel', '_blank');
+    window.open('https://t.me/cartelsol', '_blank');
   });
 
   const chartBtn = document.getElementById('chart-button');
   chartBtn.addEventListener('click', function() {
-    window.open('https://dexscreener.com/solana/6croto1klv9bjz1jzytlcsx59st7864zxbtx6tejhhsz', '_blank');
+    window.open('https://dexscreener.com/solana', '_blank');
   });
 
   const buyBtn = document.getElementById('buy-button');
   buyBtn.addEventListener('click', function() {
-    window.open('https://raydium.io/swap/?inputCurrency=sol&outputCurrency=2jhw29eRUiz5jp1GfM71Rz2XzNxF14RZk4ZUZae8Gdsv', '_blank');
+    window.open('https://raydium.io/swap', '_blank');
   });
 
   const lp = document.getElementById('lp-button');
   lp.addEventListener('click', function() {
-    window.open('https://solscan.io/tx/5xRxFdrMiHkcJsD97BmrVDerGh4A2jYMPhVHQiGNZNmKt2R7h2m4kCVtdp2vCbFzNz2PkVtjtKSqZNTYFKfNf9Qj', '_blank');
+    window.open('https://solscan.io', '_blank');
   });
   
   const mint = document.getElementById('mint-button');
   mint.addEventListener('click', function() {
-    window.open('https://solscan.io/tx/23DJqgbbT2oEUecWx3yfjYp6FEXX924c8swKLpmr6CNBNcthypk2MiDgnUqD78R4Ln8kb13EvNAHmtP3nj5WWRpk', '_blank');
+    window.open('https://solscan.io', '_blank');
   });
 
   const freeze = document.getElementById('freeze-button');
   freeze.addEventListener('click', function() {
-    window.open('https://solscan.io/tx/23DJqgbbT2oEUecWx3yfjYp6FEXX924c8swKLpmr6CNBNcthypk2MiDgnUqD78R4Ln8kb13EvNAHmtP3nj5WWRpk', '_blank');
+    window.open('https://solscan.io', '_blank');
   });
 
   /* Copy button logic */
   const copyButton = document.getElementById('copy-ca-button');
-  const textToCopy = "2jhw29eRUiz5jp1GfM71Rz2XzNxF14RZk4ZUZae8Gdsv";
+  const textToCopy = "ADDED AFTER LAUNCH";
   copyButton.addEventListener("click", async () => {
     try {
       // Try the modern Clipboard API first (if supported)
