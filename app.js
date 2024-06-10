@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   /* Copy button logic */
   const copyButton = document.getElementById('copy-ca-button');
-  const textToCopy = "6qRP43WBN6r5kDMC1ybvs8y48xpvftuuCgFS565Dpump";
+  const textToCopy = "AFTER LAUNCH";
   copyButton.addEventListener("click", async () => {
     try {
       // Try the modern Clipboard API first (if supported)
