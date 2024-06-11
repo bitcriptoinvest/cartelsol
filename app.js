@@ -69,12 +69,12 @@ document.addEventListener("DOMContentLoaded", function() {
   /* Hyperlinks */
   const twitterBtn = document.getElementById('twitter-button');
   twitterBtn.addEventListener('click', function() {
-    window.open('https://x.com/cartelsoltoken', '_blank');
+    window.open('https://x.com/cartelwhales', '_blank');
   });
 
   const telegramBtn = document.getElementById('telegram-button');
   telegramBtn.addEventListener('click', function() {
-    window.open('https://t.me/cartelsol', '_blank');
+    window.open('https://t.me/cartelwhales', '_blank');
   });
 
   const chartBtn = document.getElementById('chart-button');
@@ -89,17 +89,17 @@ document.addEventListener("DOMContentLoaded", function() {
 
   const lp = document.getElementById('lp-button');
   lp.addEventListener('click', function() {
-    window.open('https://solscan.io/token/6qRP43WBN6r5kDMC1ybvs8y48xpvftuuCgFS565Dpump', '_blank');
+    window.open('https://solscan.io/token/', '_blank');
   });
   
   const mint = document.getElementById('mint-button');
   mint.addEventListener('click', function() {
-    window.open('https://solscan.io/token/6qRP43WBN6r5kDMC1ybvs8y48xpvftuuCgFS565Dpump', '_blank');
+    window.open('https://solscan.io/token/', '_blank');
   });
 
   const freeze = document.getElementById('freeze-button');
   freeze.addEventListener('click', function() {
-    window.open('https://solscan.io/token/6qRP43WBN6r5kDMC1ybvs8y48xpvftuuCgFS565Dpump', '_blank');
+    window.open('https://solscan.io/token/', '_blank');
   });
 
   /* Copy button logic */
