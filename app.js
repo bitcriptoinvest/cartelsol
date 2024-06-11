@@ -79,32 +79,32 @@ document.addEventListener("DOMContentLoaded", function() {
 
   const chartBtn = document.getElementById('chart-button');
   chartBtn.addEventListener('click', function() {
-    window.open('https://dexscreener.com/solana/', '_blank');
+    window.open('https://www.pump.fun/GjNHFabktamgYcri5WbJSSUSiLFn5ZZMiuFRtNPEpump', '_blank');
   });
 
   const buyBtn = document.getElementById('buy-button');
   buyBtn.addEventListener('click', function() {
-    window.open('https://raydium.io/swap/', '_blank');
+    window.open('https://www.pump.fun/GjNHFabktamgYcri5WbJSSUSiLFn5ZZMiuFRtNPEpump/', '_blank');
   });
 
   const lp = document.getElementById('lp-button');
   lp.addEventListener('click', function() {
-    window.open('https://solscan.io/token/', '_blank');
+    window.open('https://www.pump.fun/GjNHFabktamgYcri5WbJSSUSiLFn5ZZMiuFRtNPEpump', '_blank');
   });
   
   const mint = document.getElementById('mint-button');
   mint.addEventListener('click', function() {
-    window.open('https://solscan.io/token/', '_blank');
+    window.open('https://www.pump.fun/GjNHFabktamgYcri5WbJSSUSiLFn5ZZMiuFRtNPEpump', '_blank');
   });
 
   const freeze = document.getElementById('freeze-button');
   freeze.addEventListener('click', function() {
-    window.open('https://solscan.io/token/', '_blank');
+    window.open('https://www.pump.fun/GjNHFabktamgYcri5WbJSSUSiLFn5ZZMiuFRtNPEpump', '_blank');
   });
 
   /* Copy button logic */
   const copyButton = document.getElementById('copy-ca-button');
-  const textToCopy = "AFTER LAUNCH";
+  const textToCopy = "https://www.pump.fun/GjNHFabktamgYcri5WbJSSUSiLFn5ZZMiuFRtNPEpump";
   copyButton.addEventListener("click", async () => {
     try {
       // Try the modern Clipboard API first (if supported)
